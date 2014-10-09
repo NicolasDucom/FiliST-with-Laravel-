@@ -1,0 +1,41 @@
+/* Calendrier */
+
+.calendrier_container {
+	padding: 0;
+}
+
+/* Tchat */
+#tchat_container {
+	max-height: 420px;
+	overflow: scroll;
+	padding: 12px;
+}
+.tchat_line {
+	margin: 0;
+}
+.tchat_datetime {
+	color: gray;
+	font-size: 12px;
+}
+.tchat_author {
+	font-weight: bold;
+}
+#input {
+	width: 100%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/* Petites-annonces */ 
+
+.toutes_petites_annonces h4 {
+	margin-top: 0;
+}
+
+.toutes_petites_annonces p {
+	font-size: 1em !important;
+}
+
+.recherchePetitesAnnonces {
+	width: 100%;
+}
